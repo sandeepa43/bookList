@@ -23,7 +23,7 @@ class BookList extends Component{
 
  function mapStateToProps(state){
    return {
-     sandeepa:'1213'
+     books: state.books
    };
  }
 
